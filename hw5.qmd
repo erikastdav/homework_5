@@ -5,3 +5,11 @@ editor: visual
 ---
 
 ## creating a quarto doc!
+
+```{r}
+library(tidyverse)
+
+mtcars %>% 
+  ggplot(aes(mpg,wt)) + 
+  geom_point()
+```
